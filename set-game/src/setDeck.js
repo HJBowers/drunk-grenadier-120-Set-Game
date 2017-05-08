@@ -1,4 +1,11 @@
-module.export = [
+import './setDeck.css'
+
+
+  <div className='rdt1' />
+
+
+
+module.exports = [
   // Red Diamonds Below
   {
     color: "red",
