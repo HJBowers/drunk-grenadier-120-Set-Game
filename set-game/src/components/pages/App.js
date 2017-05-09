@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
-import set_logo from '../public/set_logo.jpg'
-import './App.css';
+import React, { Component } from 'react'
+import set_logo from '../../../public/set_logo.jpg'
+import GameBoard from '../molecules/gameBoard'
+
+import './App.css'
 
 class App extends Component {
   render() {
@@ -10,12 +12,10 @@ class App extends Component {
           <img src={set_logo} className="App-logo" alt="logo" />
           <h2>Welcome to Set</h2>
         </div>
-        <p className="App-intro">
-          This is where the GameBoard will go.
-        </p>
+        {GameBoard}
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
