@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Deck from './Deck'
 
 import './Card.css';
 
@@ -14,7 +13,7 @@ export default class Card extends Component {
   render() {
     return (
       <div className='card'>
-        <img className='img' src={this.props.image} />
+        <img className='img' src={this.props.image} alt='null'/>
       </div>
     )
   }

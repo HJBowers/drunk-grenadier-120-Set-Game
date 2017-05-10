@@ -11,11 +11,11 @@ This goal will challenge your ability to take a formal, defined system from the 
 
 
 ## Specifications
-- [ ] **Monday:**  App has one page that displays the full game
-- [ ] **Monday:**  Deck has 81 shuffled cards
-- [ ] **Monday:**  When launched, game deals 12 cards from deck in a 4x3 grid
-- [ ] **Tuesday:** Player can press a button to reset the game
-- [ ] **Tuesday:** When pressed, deck is regenerated and reshuffled and a new grid is dealt
+- [X] **Monday:**  App has one page that displays the full game
+- [X] **Monday:**  Deck has 81 shuffled cards
+- [X] **Monday:**  When launched, game deals 12 cards from deck in a 4x3 grid
+- [X] **Tuesday:** Player can press a button to reset the game
+- [X] **Tuesday:** When pressed, deck is regenerated and reshuffled and a new grid is dealt
 - [ ] **Tuesday:** Player can press a button to deal 3 more cards into the grid (now 5x3)
 - [ ] **Wednesday:** Player can click to select 3 cards and UI will indicate that the cards have been “selected”
 - [ ] **Wednesday:** When the player selects 3 cards that are a set, the cards are replaced with new ones and the player’s score increments by 1
