@@ -8,10 +8,13 @@ export default class Card extends Component {
     super(props)
   }
 
+
+
+
   render() {
     return (
-      <div className={this.props.className}>
-        <img src={this.props.image} />
+      <div className='card'>
+        <img className='img' src={this.props.image} />
       </div>
     )
   }
