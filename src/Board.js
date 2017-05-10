@@ -40,12 +40,18 @@ export default class Board extends Component {
     this.setState({cardsInPlay: newCards, deck: deck })
   }
 
+  cardsSelected() {
+    
+  }
+
+
   render() {
     let deck = this.state.cardsInPlay
     return (
       <div className="App">
-      <p> It's here! </p>
-      {deck}
+        <div className="grid">
+          {deck}
+        </div>
       </div>
     );
   }

@@ -22,3 +22,12 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+  grid-template-rows: 150px;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  margin: 30px;
+}
