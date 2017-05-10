@@ -1,0 +1,21 @@
+/*
+r ed
+g reen
+p urple
+d iamond
+o val
+w iggle
+t ransparent
+s tripe
+f ull
+1
+2
+3
+*/
+
+.rdt1 {
+  Color: red;
+  width: 100px;
+	height: 100px;
+	background: red;
+}
