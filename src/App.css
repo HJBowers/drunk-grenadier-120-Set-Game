@@ -31,3 +31,8 @@
   grid-row-gap: 15px;
   margin: 30px;
 }
+
+.score {
+  background-color: black;
+  color: white;
+}
